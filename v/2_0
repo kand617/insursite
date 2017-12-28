@@ -233,8 +233,7 @@
                 var selectedVersion = versionSelect.options[versionSelect.selectedIndex].value;
                 var host = window.location.host;
                 var protocol = window.location.protocol;
-                var url = protocol + "//" + host + "/v/" + selectedVersion;
-                window.location.href = url;
+                window.location.href = '/v/'+ selectedVersion; //relative to domain
             });
 
 
