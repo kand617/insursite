@@ -233,7 +233,8 @@
                 var selectedVersion = versionSelect.options[versionSelect.selectedIndex].value;
                 var host = window.location.host;
                 var protocol = window.location.protocol;
-                window.location.href = '/v/'+ selectedVersion; //relative to domain
+		var repo = 'hackernewsportal'
+                window.location.href = repo +'/v/'+ selectedVersion; //relative to domain
             });
 
 
