@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="shortcut icon" href="https://apimatic.io/favicon.ico">
-        <title> Hacker News API - 1.0</title>
+        <title> Hacker News API - 2.0</title>
 
     
 
@@ -280,7 +280,7 @@
                     <ul class="breadcrumb-list">
                         <li><a href="https://apimatic.io/apidocs/hacker-news">Home </a></li>
                         <li><a> / </a></li>
-                        <li class="active"><a>v 1.0</a></li>
+                        <li class="active"><a>v 2.0</a></li>
                     </ul>
                 </div>
                 <div class="right">
@@ -289,8 +289,8 @@
                             <div class="">
                                 <label>Version</label>
                                 <select id="version-select" name="version">
-					<option selected="selected" value="1_0">1.0</option>
-					<option value="2_0">2.0</option>
+					<option value="1_0">1.0</option>
+					<option selected="selected"value="2_0">2.0</option>
 					
                                 </select>
                             </div>
