@@ -233,7 +233,7 @@
                 var selectedVersion = versionSelect.options[versionSelect.selectedIndex].value;
                 var host = window.location.host;
                 var protocol = window.location.protocol;
-                var url = protocol + "//" + host + "/api-docs/hacker-news/v/" + selectedVersion;
+                var url = protocol + "//" + host + "/v/" + selectedVersion;
                 window.location.href = url;
             });
 
@@ -260,13 +260,13 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://kand617.github.io/hackernewsportal/
+                                    <a href="https://apimatic.io/apidocs/hacker-news/v/1_0#/http"
                                        target="_blank">
                                         API
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://kand617.github.io/hackernewsportal/api#/"
+                                    <a href="https://apimatic.io/apidocs/hacker-news"
                                        target="_blank">
                                         Home
                                     </a>
@@ -289,7 +289,9 @@
                             <div class="">
                                 <label>Version</label>
                                 <select id="version-select" name="version"><option selected="selected" value="1_0">1.0</option>
-</select>
+                                </select>
+                                <select id="version-select" name="version"><option selected="selected" value="2_0">2.0</option>
+                                </select>
                             </div>
                         </form>
                     </div>
