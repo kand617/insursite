@@ -15,11 +15,7 @@ Now you have a bare bones webpage with a seperate page for each version of your 
 ## Deploying 
 
 Deploying is super easy with Netlify! 
-* Fork this repo
-* Update your API keys
-* Simply setup a new site by pointing to your new forked repo. 
-
-You can deploy the sample repo:
+* Click the button below, it will clone this repo under your own github account. 
 <!-- Markdown snippet -->
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kand617/hackernewsportal)
 
