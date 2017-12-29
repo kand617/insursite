@@ -151,7 +151,7 @@
                     width: 130px;
                     height: 20px;
                     background: none;
-                    background: #c1582d url('/img/theme/selectArrowDown.svg') no-repeat center;
+                    background: #c1582d url('https://apimatic.io/img/theme/selectArrowDown.svg') no-repeat center;
                     background-position: 95%;
                     border: 1px solid #c1582d;
                     border-radius: 0;

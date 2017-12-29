@@ -1,11 +1,10 @@
 /**
  * A helper method to build initalise the SDK portal on the page given the API key
  */
- 
 function setupWidget(apiKey){
-  if(!APIMaticDevPortal)
+  if(typeof APIMaticDevPortal === 'undefined')
   {
-    loadScript(apikey);
+    loadScript(apiKey);
   } else {
     initWidget(apiKey)
   }
