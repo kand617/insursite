@@ -43,7 +43,7 @@ function initWidget(apiKey){
           ],
           themeOverrides: {
               palette:{
-                  primaryColor1:"#c1582d"
+                   primaryColor1:"#2da0c1"
               }
           }
       });
