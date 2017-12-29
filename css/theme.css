@@ -1,13 +1,14 @@
-
-        body {
+  body {
             margin: 0;
             padding: 0;
             font-family: "Open Sans", sans-serif;
         }
+
         .apimatic-container {
             position: relative;
             top: 200px;
         }
+
         .run-button {
             margin-right:40px!important;
         }
@@ -16,13 +17,16 @@
             position:relative;
             overflow-y:scroll;
         }
+
         .absolute-wrapper {
             width:100%;
             position:absolute;
         }
+
         .hosted-api-docs {
             height:300px;
         }
+
         .portal-header {
             width: 100%;
             min-width:995px;
@@ -31,6 +35,7 @@
             position:relative;
             z-index:999;
         }
+
         .branding-container {
             width: 100%;
             height: 80px;
@@ -43,13 +48,16 @@
             float:left;
             margin: 0 auto;
         }
+
             .branding-container .logo img {
                 height: 40px;
                 float: left;
                 position: relative;
                 top: 50%;
                 transform: translateY(-50%);
+
             }
+
             .branding-container .logo p {
                 height: 30px;
                 line-height: 30px;
@@ -91,6 +99,7 @@
              text-decoration: none;
              color: #999;
              cursor: pointer;
+
              &:hover {
                 color: #324251;
             }
@@ -100,19 +109,23 @@
             border: none;
             width: 100%;
         }
+
         .portal-header .breadcrumb-container {
             width: 100%;
             height: 31px;
-            background: #9a4624;
+            background: #24809a;
         }
+
             .portal-header .breadcrumb-container .left {
                 width: 50%;
                 float: left;
             }
+
             .portal-header .breadcrumb-container .right {
                 width: 50%;
                 float: left;
             }
+
             .portal-header .breadcrumb-container .breadcrumb-list {
                 background: transparent !important;
                 margin: 0;
@@ -120,40 +133,47 @@
                 list-style: none;
                 margin-left: 30px;
             }
+
            .portal-header .breadcrumb-container .breadcrumb-list li {
                     float: left;
                     line-height: 18px;
                 }
+
                     .portal-header .breadcrumb-container .breadcrumb-list li + li {
                         margin-left: 10px;
                     }
+
                     .portal-header .breadcrumb-container .breadcrumb-list li a {
                         color: rgba(255, 255, 255, 0.6) !important;
                         font-size: 12px;
                         line-height: 18px;
                         text-decoration: none;
                     }
+
                     .portal-header .breadcrumb-container .breadcrumb-list li.active a {
                         color: white !important;
                         font-size: 12px;
                         line-height: 18px;
                     }
+
             .portal-header .breadcrumb-container .version-select {
                 padding-top: 3px;
                 float: right;
                 margin-right: 30px;
             }
+
                 .portal-header .breadcrumb-container .version-select label {
                     font-size: 12px;
                     color: white;
                 }
+
                 .portal-header .breadcrumb-container .version-select select {
                     width: 130px;
                     height: 20px;
                     background: none;
-                    background: #c1582d url('https://apimatic.io/img/theme/selectArrowDown.svg') no-repeat center;
+                    background: #2da0c1 url('https://apimatic.io/img/theme/selectArrowDown.svg') no-repeat center;
                     background-position: 95%;
-                    border: 1px solid #c1582d;
+                    border: 1px solid #2da0c1;
                     border-radius: 0;
                     -webkit-appearance: none;
                     padding: 1px 4px;
@@ -166,10 +186,12 @@
                     -moz-box-sizing:border-box!important;
                     box-sizing:border-box!important;
                 }
+
                     .portal-header .breadcrumb-container .version-select select option {
                         color: #fff;
                         font-weight: 13px;
                     }
+
                     .portal-header .breadcrumb-container .version-select select:hover, .portal-header .breadcrumb-container .version-select select:active, .portal-header .breadcrumb-container .version-select select:focus {
                         outline: none;
                         box-shadow: none;
